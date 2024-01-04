@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Função -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+>
+
+
+
+    <skos:ConceptScheme rdf:about="http://equipa10.org/role">
+
+        <dcterms:title>Função Desempenhada</dcterms:title>
+
+        <dcterms:date>2023</dcterms:date>
+
+        <skos:hasTopConcept rdf:resource="#0001" />
+
+        <skos:hasTopConcept rdf:resource="#0002" />
+
+        <skos:hasTopConcept rdf:resource="#0003" />
+
+        <skos:hasTopConcept rdf:resource="#0004" />
+
+        <skos:hasTopConcept rdf:resource="#0005" />
+
+        <skos:hasTopConcept rdf:resource="#0006" />
+
+    </skos:ConceptScheme>
+
+
+
+    <skos:Concept rdf:about="#0001" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Bolseiro de Cientista Convidado</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Invited Scientist Fellow</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/role" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/role" />
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="#0002" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Bolseiro de Doutoramento</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">PhD Student Fellow</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/role" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/role" />
+
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="#0003" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Investigador</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Researcher</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/role" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/role" />
+
+</skos:Concept>
+
+    <skos:Concept rdf:about="#0004" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Orientador</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Supervisor</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/role" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/role" />
+
+</skos:Concept>
+
+
+    <skos:Concept rdf:about="#0005" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Bolseiro de Mestrado</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Master Student Fellow</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/role" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/role" />
+
+</skos:Concept>
+
+
+    <skos:Concept rdf:about="#0006" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Outro</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/role" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/role" />
+
+</skos:Concept>
+
+</rdf:RDF>

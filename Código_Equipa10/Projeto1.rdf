@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- Projeto 1 -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+    xmlns:dbpedia="http://dbpedia.org/ontology/"
+
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+
+    xmlns:vcard="https://www.w3.org/2006/vcard/ns#"
+
+    xmlns:equipa10="http://equipa10.org/core#"
+
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+
+    xmlns:mrel="http://id.loc.gov/vocabulary/relators/"
+
+    xmlns:schema="https://schema.org/"
+
+>
+
+    <rdf:Description rdf:about="https://datarepositorium.uminho.pt/dataset.xhtml?persistentId=doi:10.34622/datarepositorium/74SNPU">
+
+        <!-- Participante -->
+
+        <schema:participant rdf:parseType="Resource">
+           
+            <equipa10:cienciaVitaeProfile  rdf:resource="https://www.cienciavitae.pt/portal/201D-B2FC-E126"/>
+
+            <!--Participação -->
+
+            <equipa10:participation rdf:parseType="Resource">
+
+                <vivo:ResearcherRole rdf:resource="http://equipa10.org/role#0003"/>
+                <equipa10:relationshipType rdf:resource="http://equipa10.org/relationshipType#0001"/>
+                <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020/08/24 </vivo:start>
+                <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023/08/23 </vivo:end>
+
+            </equipa10:participation>
+
+        </schema:participant>
+
+                <!-- Participante -->
+
+        <schema:participant rdf:parseType="Resource">
+           
+            <equipa10:cienciaVitaeProfile  rdf:resource="https://www.cienciavitae.pt//EE1E-45E0-9785"/>
+
+            <!--Participação -->
+
+            <equipa10:participation rdf:parseType="Resource">
+
+                <vivo:ResearcherRole rdf:resource="http://equipa10.org/role#0003"/>
+                <equipa10:relationshipType rdf:resource="http://equipa10.org/relationshipType#0001"/>
+                <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020/08/24 </vivo:start>
+                <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023/08/23 </vivo:end>
+
+            </equipa10:participation>
+
+        </schema:participant>
+
+        <!-- Financiamento -->
+
+        <schema:funding rdf:parseType="Resource">
+
+            <equipa10:fundingEntity rdf:resource="http://equipa10.org/fundingEntity#0001"/>
+            <schema:programType rdf:resource="https://lab2pt.net/opportunities/concurso-para-1-uma-bolsa-de-investigacao-para-estudantes-de-mestrado-na-area-de-arqueologia-projeto-raraa"/>
+            <vivo:dateIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020</vivo:dateIssued>
+            <equipa10:fundingType rdf:resource="http://equipa10.org/fundingType#0002"/>
+
+        </schema:funding>
+
+        <!-- Referência -->
+
+        <schema:codeValue rdf:parseType="Resource">
+
+            <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COA/OVD/0097/2019</dcterms:identifier>
+            <vcard:hasURL rdf:resource="https://datarepositorium.uminho.pt/dataset.xhtml?persistentId=doi:10.34622/datarepositorium/74SNPU"/>
+
+        </schema:codeValue>
+
+        <!-- Título -->
+
+        <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vermelhosa</dcterms:title>
+
+        <!-- Descrição -->
+
+        <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D survey of rocks with Iron Age rock art motifs from the Vermelhosa site. Financed by national funds through FCT/MCTES - COA/OVD/0097/2019 “Repositório de Arte Rupestre de Acesso Aberto” (2021-11-08)</dcterms:description>
+
+        <!-- Data de Início-->
+
+        <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020/08/24 </vivo:start>
+
+        <!-- Data de Fim -->
+
+        <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023/08/23 </vivo:end>
+
+        <!-- Estado -->
+
+        <dbpedia:currentStatus rdf:resource="http://equipa10.org/status#0004"/>
+
+        <!--Instituição -->
+
+        <vivo:affiliatedOrganization rdf:resource="http://equipa10.org/institution#0001/UMinho"/>
+
+        <!-- Palavra-Chave-->
+
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arte Rupestre</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arqueologia</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modelos 3D</schema:keywords>
+
+        <!-- Área de Conhecimento -->
+
+        <vivo:hasResearchArea rdf:resource="http://equipa10.org/knowledgeField#0004"/>
+
+    </rdf:Description>
+
+</rdf:RDF>

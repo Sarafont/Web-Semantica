@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- Projeto 1 -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+    xmlns:dbpedia="http://dbpedia.org/ontology/"
+
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+
+    xmlns:vcard="https://www.w3.org/2006/vcard/ns#"
+
+    xmlns:equipa10="http://equipa10.org/core#"
+
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+
+    xmlns:mrel="http://id.loc.gov/vocabulary/relators/"
+
+    xmlns:schema="https://schema.org/"
+
+>
+
+    <rdf:Description rdf:about="https://beprepared-project.eu/">
+
+        <!-- Participante -->
+
+        <schema:participant rdf:parseType="Resource">
+           
+            <equipa10:cienciaVitaeProfile  rdf:resource="https://www.cienciavitae.pt//1213-A1A0-20F3"/>
+
+            <!--Participação -->
+
+            <equipa10:participation rdf:parseType="Resource">
+
+                <vivo:ResearcherRole rdf:resource="http://equipa10.org/role#0003"/>
+                <equipa10:relationshipType rdf:resource="http://equipa10.org/relationshipType#0001"/>
+                <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020/09/01</vivo:start>
+                <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022/08/31</vivo:end>
+
+            </equipa10:participation>
+
+        </schema:participant>
+
+        <!-- Financiamento -->
+
+        <schema:funding rdf:parseType="Resource">
+
+            <equipa10:fundingEntity rdf:resource="http://equipa10.org/fundingEntity#0004"/>
+            <schema:programType rdf:resource="https://erasmus-plus.ec.europa.eu/projects/search/details/2020-1-EE01-KA202-077891"/>
+            <vivo:dateIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020</vivo:dateIssued>
+            <equipa10:fundingType rdf:resource="http://equipa10.org/fundingType#0002"/>
+
+        </schema:funding>
+
+        <!-- Referência -->
+
+        <schema:codeValue rdf:parseType="Resource">
+
+            <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2020-1-EE01-KA202-077891</dcterms:identifier>
+            <vcard:hasURL rdf:resource="https://beprepared-project.eu/"/>
+
+        </schema:codeValue>
+
+        <!-- Título -->
+
+        <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMEs: Be prepared for supply chain risks!</dcterms:title>
+
+        <!-- Descrição -->
+
+        <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Este estudo destaca a necessidade de abordar as incoerências e incongruências nas teorias de ação relacionadas com a Segurança de Sistemas de Informação, propondo intervenções de aprendizagem para melhorar o desempenho humano e reduzir vulnerabilidades.</dcterms:description>
+
+        <!-- Data de Início-->
+
+        <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020/09/01</vivo:start>
+
+        <!-- Data de Fim -->
+
+        <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022/08/31</vivo:end>
+
+        <!-- Estado -->
+
+        <dbpedia:currentStatus rdf:resource="http://equipa10.org/status#0004"/>
+
+        <!--Instituição -->
+
+        <vivo:affiliatedOrganization rdf:resource="http://equipa10.org/institution#0001/UMinho"/>
+
+        <!-- Palavra-Chave-->
+
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICT - New Technologies - Digital Competences</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Labour Market Issues Incl. Career Guidance / Youth Unemployment</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Entrepreneurial Learning - Entrepreneurship Education</schema:keywords>
+
+        <!-- Área de Conhecimento -->
+
+        <vivo:hasResearchArea rdf:resource="http://equipa10.org/knowledgeField#0001"/>
+
+    </rdf:Description>
+
+</rdf:RDF>

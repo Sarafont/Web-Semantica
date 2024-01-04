@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- Projeto 1 Bárbara -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+    xmlns:dbpedia="http://dbpedia.org/ontology/"
+
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+
+    xmlns:vcard="https://www.w3.org/2006/vcard/ns#"
+
+    xmlns:equipa10="http://equipa10.org/core#"
+
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+
+    xmlns:mrel="http://id.loc.gov/vocabulary/relators/"
+
+    xmlns:schema="https://schema.org/"
+
+>
+
+    <rdf:Description rdf:about="https://cordis.europa.eu/project/id/619606">
+
+        <!-- Participante -->
+
+        <schema:participant rdf:parseType="Resource">
+           
+            <equipa10:cienciaVitaeProfile  rdf:resource="https://www.cienciavitae.pt/portal/7C19-106B-97CD"/>
+
+            <!--Participação -->
+
+            <equipa10:participation rdf:parseType="Resource">
+
+                <vivo:ResearcherRole rdf:resource="http://equipa10.org/role#0003"/>
+                <equipa10:relationshipType rdf:resource="http://equipa10.org/relationshipType#0001"/>
+                <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014/02/01</vivo:start>
+                <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017/01/31</vivo:end>
+
+            </equipa10:participation>
+
+        </schema:participant>
+
+        <!-- Financiamento -->
+
+        <schema:funding rdf:parseType="Resource">
+
+            <equipa10:fundingEntity rdf:resource="http://equipa10.org/fundingEntity#0008"/>
+            <schema:programType rdf:resource="https://cordis.europa.eu/programme/id/FP7-ICT"/>
+            <vivo:dateIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014</vivo:dateIssued>
+            <equipa10:fundingType rdf:resource="http://equipa10.org/fundingType#0001"/>
+
+        </schema:funding>
+
+        <!-- Referência -->
+
+        <schema:codeValue rdf:parseType="Resource">
+
+            <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FP7-ICT 619606</dcterms:identifier>
+            <vcard:hasURL rdf:resource="https://cordis.europa.eu/project/id/619606"/>
+
+        </schema:codeValue>
+
+        <!-- Título -->
+
+        <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultra-Scalable and Ultra-Efficient Integrated and Visual Big Data Analytics</dcterms:title>
+
+        <!-- Descrição -->
+
+        <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scalable data analytics</dcterms:description>
+
+        <!-- Data de Início-->
+
+        <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014/02/01 </vivo:start>
+
+        <!-- Data de Fim -->
+
+        <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017/01/31 </vivo:end>
+
+        <!-- Estado -->
+
+        <dbpedia:currentStatus rdf:resource="http://equipa10.org/status#0001"/>
+
+        <!--Instituição -->
+
+        <vivo:affiliatedOrganization rdf:resource="http://equipa10.org/institution#0002/UPM"/>
+
+        <!-- Palavra-Chave-->
+
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Big Data</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Análise de dados</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eficiência</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escalabilidade</schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Visualização</schema:keywords>
+
+        <!-- Área de Conhecimento -->
+
+        <vivo:hasResearchArea rdf:resource="http://equipa10.org/knowledgeField#0001"/>
+
+    </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Área do Conhecimento -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+>
+
+
+
+    <skos:ConceptScheme rdf:about="http://equipa10.org/knowledgeField">
+
+        <dcterms:title>Área do Conhecimento</dcterms:title>
+
+        <dcterms:date>2023</dcterms:date>
+
+        <skos:hasTopConcept rdf:resource="#0001" />
+
+        <skos:hasTopConcept rdf:resource="#0002" />
+
+        <skos:hasTopConcept rdf:resource="#0003" />
+
+        <skos:hasTopConcept rdf:resource="#0004" />
+
+        <skos:hasTopConcept rdf:resource="#0005" />
+
+        <skos:hasTopConcept rdf:resource="#0006" />
+
+    </skos:ConceptScheme>
+
+
+
+    <skos:Concept rdf:about="#0001" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Ciências da Engenharia e Tecnologias - Engenharia Eletrotécnica, Eletrónica e Informática</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Engineering and Technology - Electrotechnical Engineering, Electronics and Informatics</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/knowledgeField" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/knowledgeField" />
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="#0002" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Ciências Agrárias - Biotecnologia Agrária e Alimentar</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Agrarian Sciences - Agrarian and Food Biotechnology</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/knowledgeField" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/knowledgeField" />
+
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="#0003" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Ciências Exatas - Matemática</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Exact Sciences - Mathematics</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/knowledgeField" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/knowledgeField" />
+
+</skos:Concept>
+
+    <skos:Concept rdf:about="#0004" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Humanidades - Artes</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Humanities - Arts</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/knowledgeField" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/knowledgeField" />
+
+</skos:Concept>
+
+
+    <skos:Concept rdf:about="#0005" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Ciências Sociais</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Social Sciences</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/knowledgeField" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/knowledgeField" />
+
+</skos:Concept>
+
+</rdf:RDF>

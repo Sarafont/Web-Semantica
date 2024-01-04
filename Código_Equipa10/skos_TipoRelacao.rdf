@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Tipo de Relação -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+>
+
+
+
+    <skos:ConceptScheme rdf:about="http://equipa10.org/relationshipType">
+
+        <dcterms:title>Tipo de Relação</dcterms:title>
+
+        <dcterms:date>2023</dcterms:date>
+
+        <skos:hasTopConcept rdf:resource="#0001" />
+
+        <skos:hasTopConcept rdf:resource="#0002" />
+
+    </skos:ConceptScheme>
+
+
+
+    <skos:Concept rdf:about="#0001" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Parte de</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Part Of</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/relationshipType" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/relationshipType" />
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="#0002" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Próprio</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Self</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/relationshipType" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/relationshipType" />
+
+    </skos:Concept>
+
+
+
+</rdf:RDF>

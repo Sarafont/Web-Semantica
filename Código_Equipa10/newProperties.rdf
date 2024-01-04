@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    
+
+>
+
+    <!-- Tipo de financiamento-->
+
+    <rdf:Property rdf:about="http://www.ws2324.org/equipa10/core#fundingType">
+        <rdfs:label xml:lang="en">Funding Type</rdfs:label>
+        <rdfs:label xml:lang="pt">Tipo de Financiamento</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Funding Type</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type" />
+    </rdf:Property>
+
+    <!-- Relação com o projeto -->
+
+    <rdf:Property rdf:about="http://www.ws2324.org/equipa10/core#relationshipType">
+        <rdfs:label xml:lang="en">Type of Relationship</rdfs:label>
+        <rdfs:label xml:lang="pt">Tipo de Relação</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of relationship with the project</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type" />
+    </rdf:Property>
+
+    <!-- Perfil Ciência Vitae -->
+
+    <rdf:Property rdf:about="http://www.ws2324.org/equipa10/core#cienciaVitaeProfile">
+        <rdfs:label xml:lang="en">Ciência Vitae Profile</rdfs:label>
+        <rdfs:label xml:lang="pt">Perfil Ciência Vitae</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">The Ciência Vitae profile of the participant</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type" />
+    </rdf:Property>
+
+        <!-- Participação -->
+
+    <rdf:Property rdf:about="http://www.ws2324.org/equipa10/core#participation">
+        <rdfs:label xml:lang="en">Participation</rdfs:label>
+        <rdfs:label xml:lang="pt">Participação</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">Details of the participation of a participant</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/type" />
+    </rdf:Property>
+
+
+</rdf:RDF>

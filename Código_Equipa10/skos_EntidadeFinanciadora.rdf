@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Entidade Financiadora -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+>
+
+
+
+    <skos:ConceptScheme rdf:about="http://equipa10.org/fundingEntity">
+
+        <dcterms:title>Entidade Financiadora</dcterms:title>
+
+        <dcterms:date>2023</dcterms:date>
+
+        <skos:hasTopConcept rdf:resource="#0001" />
+
+        <skos:hasTopConcept rdf:resource="#0002" />
+
+        <skos:hasTopConcept rdf:resource="#0003" />
+
+        <skos:hasTopConcept rdf:resource="#0004" />
+
+        <skos:hasTopConcept rdf:resource="#0005" />
+
+        <skos:hasTopConcept rdf:resource="#0006" />
+
+        <skos:hasTopConcept rdf:resource="#0007" />
+
+        <skos:hasTopConcept rdf:resource="#0008" />
+
+    </skos:ConceptScheme>
+
+
+
+    <skos:Concept rdf:about="#0001" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Fundação para a Ciência e a Tecnologia</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Fundação para a Ciência e a Tecnologia</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="#0002" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Universidade do Minho TecMinho</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Universidade do Minho TecMinho</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="#0003" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Universidade do Minho - Campus de Azurém</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Universidade do Minho - Campus de Azurém</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+</skos:Concept>
+
+    <skos:Concept rdf:about="#0004" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Universidade do Minho Centro AlGORITMI</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Universidade do Minho Centro AlGORITMI</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+</skos:Concept>
+
+
+    <skos:Concept rdf:about="#0005" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Universidade do Minho Departamento de Sistemas de Informação</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">Universidade do Minho Departamento de Sistemas de Informação</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+</skos:Concept>
+
+
+<skos:Concept rdf:about="#0006" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">FEDER</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">FEDER</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#0007" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Agência Nacional de Inovação</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+</skos:Concept>
+
+<skos:Concept rdf:about="#0008" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Autoridade de Gestão do Programa Operacional Regional do Norte</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/fundingEntity" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/fundingEntity" />
+
+</skos:Concept>
+
+</rdf:RDF>
+

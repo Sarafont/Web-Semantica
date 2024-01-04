@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Instituição -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+    xmlns:dbpedia="http://dbpedia.org/ontology/"
+
+    xmlns:vcard="https://www.w3.org/2006/vcard/ns#"
+
+    xmlns:equipa10="http://equipa10.org/core#"
+
+    xmlns:rsctx="http://softeng.polito.it/rsctx#"
+
+>
+
+
+
+    <skos:ConceptScheme rdf:about="http://equipa10.org/institution">
+
+        <dcterms:title>Instituições</dcterms:title>
+
+        <dcterms:date>2023</dcterms:date>
+
+        <skos:hasTopConcept rdf:resource="#0001" />
+
+        <skos:hasTopConcept rdf:resource="#0002" />
+
+    </skos:ConceptScheme>
+
+
+
+    <skos:Concept rdf:about="#0001" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Ensino Universitário</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">University Education</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="/UMinho" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Universidade do Minho</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">University of Minho</skos:prefLabel>
+
+        <skos:altLabel>UMinho</skos:altLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+        <skos:broader rdf:resource="#0001" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/institution" />
+
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University" />
+
+        <vcard:organizationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade do Minho</vcard:organizationName>
+
+        <rsctx:county rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braga</rsctx:county>
+
+        <dbpedia:city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braga</dbpedia:city>
+
+        <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</vcard:country>
+
+        <vcard:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensino</vcard:category>
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="/FEUP" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Faculdade de Engenharia da Universidade do Porto</skos:prefLabel>
+
+        <skos:altLabel>FEUP</skos:altLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+        <skos:broader rdf:resource="#0001" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/institution" />
+
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University" />
+
+        <vcard:organizationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faculdade de Engenharia da Universidade do Porto</vcard:organizationName>
+
+        <rsctx:county rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porto</rsctx:county>
+
+        <dbpedia:city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porto</dbpedia:city>
+
+        <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</vcard:country>
+
+        <vcard:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensino</vcard:category>
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="/UCoimbra" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Universidade de Coimbra</skos:prefLabel>
+
+        <skos:altLabel>UCoimbra</skos:altLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+        <skos:broader rdf:resource="#0001" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/institution" />
+
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University" />
+
+        <vcard:organizationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade de Coimbra</vcard:organizationName>
+
+        <rsctx:county rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coimbra</rsctx:county>
+
+        <dbpedia:city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coimbra</dbpedia:city>
+
+        <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</vcard:country>
+
+        <vcard:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensino</vcard:category>
+
+    </skos:Concept>
+
+
+    
+    <skos:Concept rdf:about="/INESC_TEC" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência</skos:prefLabel>
+
+        <skos:altLabel>INESC TEC</skos:altLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+        <skos:broader rdf:resource="#0001" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/institution" />
+
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University" />
+
+        <vcard:organizationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instituto de Engenharia de Sistemas e Computadores, Tecnologia e Ciência</vcard:organizationName>
+
+        <rsctx:county rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porto</rsctx:county>
+
+        <dbpedia:city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porto</dbpedia:city>
+
+        <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</vcard:country>
+
+        <vcard:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensino</vcard:category>
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="#0002" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Ensino Politécnico</skos:prefLabel>
+
+        <skos:prefLabel xml:lang="en">polytechnic education</skos:prefLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="/IPCA" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Instituto Politécnico do Cávado e do Ave</skos:prefLabel>
+
+        <skos:altLabel>IPCA</skos:altLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+        <skos:broader rdf:resource="#0002" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/institution" />
+
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University" />
+
+        <vcard:organizationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instituto Politécnico do Cávado e do Ave</vcard:organizationName>
+
+        <rsctx:county rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Braga</rsctx:county>
+
+        <dbpedia:city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barcelos</dbpedia:city>
+
+        <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</vcard:country>
+
+        <vcard:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensino</vcard:category>
+
+    </skos:Concept>
+
+
+
+    <skos:Concept rdf:about="/ISEP" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Instituto Superior de Engenharia do Porto</skos:prefLabel>
+
+        <skos:altLabel>ISEP</skos:altLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+        <skos:broader rdf:resource="#0002" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/institution" />
+
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University" />
+
+        <vcard:organizationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instituto Superior de Engenharia do Porto</vcard:organizationName>
+
+        <rsctx:county rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porto</rsctx:county>
+
+        <dbpedia:city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porto</dbpedia:city>
+
+        <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portugal</vcard:country>
+
+        <vcard:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensino</vcard:category>
+
+    </skos:Concept>
+
+
+    <skos:Concept rdf:about="/UPM" xml:lang="pt">
+
+        <skos:prefLabel xml:lang="pt">Universidade Politécnica De Madrid </skos:prefLabel>
+
+        <skos:altLabel>UPM</skos:altLabel>
+
+        <skos:inScheme rdf:resource="http://equipa10.org/institution" />
+
+        <skos:broader rdf:resource="#0002" />
+
+        <skos:topConceptOf rdf:resource="http://equipa10.org/institution" />
+
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#University" />
+
+        <vcard:organizationName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Universidade Politécnica De Madrid</vcard:organizationName>
+
+        <rsctx:county rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madrid</rsctx:county>
+
+        <dbpedia:city rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Madrid</dbpedia:city>
+
+        <vcard:country rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Espanha</vcard:country>
+
+        <vcard:category rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ensino</vcard:category>
+
+    </skos:Concept>
+
+
+</rdf:RDF>
+
+

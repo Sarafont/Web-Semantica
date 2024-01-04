@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!-- Projeto 2 Bárbara -->
+
+<rdf:RDF
+
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+
+    xmlns:dcterms="http://purl.org/dc/terms/"
+
+    xmlns:dbpedia="http://dbpedia.org/ontology/"
+
+    xmlns:vivo="http://vivoweb.org/ontology/core#"
+
+    xmlns:vcard="https://www.w3.org/2006/vcard/ns#"
+
+    xmlns:equipa10="http://equipa10.org/core#"
+
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+
+    xmlns:mrel="http://id.loc.gov/vocabulary/relators/"
+
+    xmlns:schema="https://schema.org/"
+
+>
+
+    <rdf:Description rdf:about="https://www.inesctec.pt/pt/projetos/safer#intro">
+
+        <!-- Participante -->
+
+        <schema:participant rdf:parseType="Resource">
+           
+            <equipa10:cienciaVitaeProfile  rdf:resource="https://www.cienciavitae.pt/portal/AC1B-0B6D-1CF9"/>
+
+            <!--Participação -->
+
+            <equipa10:participation rdf:parseType="Resource">
+
+                <vivo:ResearcherRole rdf:resource="http://equipa10.org/role#0003"/>
+                <equipa10:relationshipType rdf:resource="http://equipa10.org/relationshipType#0001"/>
+                <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018/07/01</vivo:start>
+                <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021/10/15</vivo:end>
+
+            </equipa10:participation>
+
+        </schema:participant>
+
+        <!-- Financiamento -->
+
+        <schema:funding rdf:parseType="Resource">
+
+            <equipa10:fundingEntity rdf:resource="http://equipa10.org/fundingEntity#0001"/>
+            <schema:programType rdf:resource="---"/>
+            <vivo:dateIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020</vivo:dateIssued>
+            <equipa10:fundingType rdf:resource="http://equipa10.org/fundingType#0002"/>
+
+        </schema:funding>
+
+        <!-- Referência -->
+
+        <schema:codeValue rdf:parseType="Resource">
+
+            <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTDC/CCI-INF/29583/2017</dcterms:identifier>
+            <vcard:hasURL rdf:resource="https://www.inesctec.pt/pt/projetos/safer#intro"/>
+
+        </schema:codeValue>
+
+        <!-- Título -->
+
+        <dcterms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verificação de segurança para software robótico</dcterms:title>
+
+        <!-- Descrição -->
+
+        <dcterms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O projeto SAFER pretende desenvolver técnicas no contexto de ROS. Para facilitar a integração e adoção pela comunidade robótica, o projeto vai desenvolver técnicas que funcionarão a partir do código fonte e serão apoiadas por ferramentas de verificação automatizada.</dcterms:description>
+
+        <!-- Data de Início-->
+
+        <vivo:start rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018/07/01 </vivo:start>
+
+        <!-- Data de Fim -->
+
+        <vivo:end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021/10/15 </vivo:end>
+
+        <!-- Estado -->
+
+        <dbpedia:currentStatus rdf:resource="http://equipa10.org/status#0001"/>
+
+        <!--Instituição -->
+
+        <vivo:affiliatedOrganization rdf:resource="http://equipa10.org/institution#0003"/>
+
+        <!-- Palavra-Chave-->
+
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Segurança </schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> software </schema:keywords>
+        <schema:keywords rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> robótico </schema:keywords>
+
+        <!-- Área de Conhecimento -->
+
+        <vivo:hasResearchArea rdf:resource="http://equipa10.org/knowledgeField#0001"/>
+
+    </rdf:Description>
+
+</rdf:RDF>
